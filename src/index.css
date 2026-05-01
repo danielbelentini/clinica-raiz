@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    background: #ffffff;
+    color: #1B2B4B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    display: inline-block;
+    background-color: #C47B5F;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    padding: 0.875rem 2rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.15s;
+    text-decoration: none;
+  }
+  .btn-primary:hover { background-color: #A05E44; }
+  .btn-primary:active { transform: scale(0.97); }
+
+  .btn-outline {
+    display: inline-block;
+    background-color: transparent;
+    color: #1B2B4B;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    padding: 0.875rem 2rem;
+    border-radius: 4px;
+    border: 2px solid #1B2B4B;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  .btn-outline:hover { background-color: #1B2B4B; color: #ffffff; }
+
+  .btn-outline-light {
+    display: inline-block;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    padding: 0.875rem 2rem;
+    border-radius: 4px;
+    border: 2px solid rgba(255,255,255,0.5);
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  .btn-outline-light:hover { border-color: #ffffff; background-color: rgba(255,255,255,0.1); }
+
+  .section-tag {
+    display: block;
+    color: #C47B5F;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+}
