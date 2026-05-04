@@ -31,8 +31,8 @@ export default function Footer() {
           <h3 className="text-white font-semibold text-sm mb-3">Contato</h3>
           <p className="text-sm mb-1">Seg a Sex: 08h às 19h</p>
           <p className="text-sm mb-2">Sábado: 08h às 14h</p>
-          <a href="https://wa.me/5511999999999" className="text-sm font-semibold no-underline transition-colors" style={{ color: '#C47B5F' }}>
-            (11) 99999-9999
+          <a href="https://wa.me/5511999921543" className="text-sm font-semibold no-underline transition-colors" style={{ color: '#C47B5F' }}>
+            (11) 99992-1543
           </a>
         </div>
       </div>
