@@ -22,7 +22,7 @@ function Hero() {
       aria-label="Apresentação da clínica"
       className="relative min-h-screen flex items-center px-6"
       style={{
-        backgroundImage: 'url(https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80&auto=format&fit=crop)',
+        backgroundImage: 'url(https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=1600&q=80&auto=format&fit=crop)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
